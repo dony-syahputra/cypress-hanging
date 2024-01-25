@@ -1,0 +1,67 @@
+{
+  "low_risk": {
+    "passed": {
+      "atWorkshop": "NO",
+      "inPossession": "true",
+      "interiorCondition": "GOOD",
+      "dentCondition": "NO",
+      "ableToTurnOn": "true"
+    },
+    "rejected": {
+      "atWorkshop": "NO",
+      "inPossession": "true",
+      "interiorCondition": "GOOD",
+      "dentCondition": "NO",
+      "ableToTurnOn": "false"
+    },
+    "partial": {
+      "atWorkshop": "NO",
+      "inPossession": "true",
+      "interiorCondition": "GOOD",
+      "dentCondition": "NO",
+      "ableToTurnOn": "true"
+    }
+  },
+  "medium_risk": {
+    "passed": {
+      "monthlyInstalment": "14700000",
+      "monthlyIncome": "200000000",
+      "repaymentDelayReason": "1",
+      "ableToTurnOn": "true",
+      "interiorCondition": "GOOD",
+      "inPossession": "true",
+      "atWorkshop": "NO",
+      "dentCondition": "NO"
+    },
+    "partial": {
+      "monthlyInstalment": "14700000",
+      "monthlyIncome": "200000000",
+      "repaymentDelayReason": "1",
+      "ableToTurnOn": "true",
+      "interiorCondition": "GOOD",
+      "inPossession": "true",
+      "atWorkshop": "NO",
+      "dentCondition": "NO"
+    },
+    "adjusted": {
+      "monthlyInstalment": "3000000",
+      "monthlyIncome": "20000000",
+      "repaymentDelayReason": "1",
+      "ableToTurnOn": "true",
+      "interiorCondition": "GOOD",
+      "inPossession": "true",
+      "atWorkshop": "NO",
+      "dentCondition": "NO"
+    },
+    "rejected": {
+      "monthlyInstalment": "14700000",
+      "monthlyIncome": "200000000",
+      "repaymentDelayReason": "1",
+      "ableToTurnOn": "false",
+      "interiorCondition": "GOOD",
+      "inPossession": "true",
+      "atWorkshop": "NO",
+      "dentCondition": "NO"
+    }
+  }
+}

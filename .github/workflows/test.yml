@@ -1,0 +1,44 @@
+name: YML test
+
+on:
+  workflow_dispatch:
+    branches: [master]
+    inputs:
+      test_type:
+        description: 'Please input test type.'
+        type: choice
+        required: true
+        default: 'e2e'
+        options:
+          - e2e
+          - integration
+      test_environment:
+        description: 'Please input environment to test.'
+        type: choice
+        required: true
+        default: 'SIT'
+        options:
+          - SIT
+          - UAT
+      githost_environment:
+        description: 'Please input git host environment to run the test (use legacy when vpn is required).'
+        type: choice
+        required: true
+        default: 'ubuntu-latest'
+        options:
+          - ubuntu-latest
+          - legacy
+      squad:
+        description: 'Please input squad. Example: spvcockpit, are, agenttools, dms, ndf4w, ndf2w, operation, sharia, etc'
+        required: true
+        default: ''
+
+jobs:
+  RunTest:
+    uses: bfi-finance/cypress-test-automation/.github/workflows/reuseable.yml@master
+    with:
+      test_type: ${{ github.event.inputs.test_type }}
+      test_environment: ${{ github.event.inputs.test_environment }}
+      githost_environment: ${{ github.event.inputs.githost_environment }}
+      squad: ${{ github.event.inputs.squad }}
+    secrets: inherit

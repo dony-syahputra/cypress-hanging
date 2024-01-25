@@ -1,0 +1,10 @@
+.DS_Store
+node_modules/
+screenshots/
+videos/
+cypress.env.json
+cypress/fixtures/zephyr/
+cypress/fixtures/sample/
+cypress/fixtures/ndf4w/data-real
+cypress/fixtures/ndf4w/image
+.vscode/

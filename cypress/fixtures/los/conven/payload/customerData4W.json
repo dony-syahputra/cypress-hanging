@@ -1,0 +1,18 @@
+{
+  "low": {
+    "full_name": "SUPARMO SALIM",
+    "identity_number": "3173050512600001",
+    "gender": "M",
+    "date_of_birth": "1960-12-05",
+    "place_of_birth": "JAKARTA",
+    "marital_status": "S"
+  },
+  "medium": {
+    "full_name": "USMAN DUNGGIO",
+    "identity_number": "7501111806610001",
+    "gender": "M",
+    "date_of_birth": "1961-06-18",
+    "place_of_birth": "BLITAR",
+    "marital_status": "S"
+  }
+}

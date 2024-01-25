@@ -1,0 +1,48 @@
+name: Reuseable test
+
+on:
+  workflow_call:
+    inputs:
+      test_type:
+        description: e2e or integration
+        type: string
+        required: true
+      test_environment:
+        description: SIT or UAT
+        type: string
+        required: true
+      githost_environment:
+        description: ubuntu-latest ot legacy
+        type: string
+        required: true
+      squad:
+        description: Squad name, ie. spvcockpit, are, agenttools, dms, ndf4w, ndf2w, operation, sharia, etc
+        type: string
+        required: true
+
+env:
+  CYPRESS_PROJECT_ID: ${{ secrets[format('{0}_PROJECT_ID', inputs.squad)] }}
+  CYPRESS_RECORD_KEY: ${{ secrets[format('{0}_RECORD_KEY', inputs.squad)] }}
+
+jobs:
+  RunTest:
+    name: Run ${{ inputs.test_type }} test for squad ${{ inputs.squad }}
+    environment: ${{ inputs.test_environment }}
+    runs-on: ${{ inputs.githost_environment }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set runner timezone to GMT+7
+        uses: szenius/set-timezone@v1.2
+        with:
+          timezoneLinux: 'Asia/Jakarta'
+      - name: Set up cypress.env.json from secret
+        run: echo '${{ secrets.CYPRESS_ENV }}' > cypress.env.json
+      - name: Cypress run for squad ${{ inputs.squad }}
+        uses: cypress-io/github-action@v6
+        with:
+          command: npm run run:${{ inputs.test_type }}:${{ inputs.squad }}
+      #   continue-on-error: true
+      # - name: Setup tmate session
+      #   uses: mxschmitt/action-tmate@v3
+          

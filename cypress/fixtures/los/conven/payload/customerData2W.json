@@ -1,0 +1,46 @@
+{
+  "very_low": {
+    "full_name": "SITI NUR JUBAIDAH",
+    "identity_number": "6402076106890001",
+    "gender": "F",
+    "date_of_birth": "1989-06-21",
+    "place_of_birth": "TENGGARONG",
+    "bpkb_ownership": "1",
+    "occupation_type": "M",
+    "home_status": "SELF_OWNED",
+    "education": "S1"
+  },
+  "low": {
+    "full_name": "SITI NUR JUBAIDAH",
+    "identity_number": "6402076106890001",
+    "gender": "F",
+    "date_of_birth": "1989-06-21",
+    "place_of_birth": "TENGGARONG",
+    "bpkb_ownership": "2",
+    "occupation_type": "M",
+    "home_status": "SELF_OWNED",
+    "education": "S1"
+  },
+  "medium": {
+    "full_name": "DAMASIUS MITTAN",
+    "identity_number": "5301132412800005",
+    "gender": "M",
+    "date_of_birth": "1980-12-24",
+    "place_of_birth": "OEKABITI",
+    "bpkb_ownership": "2",
+    "occupation_type": "M",
+    "home_status": "YEARLY_CONTRACT",
+    "education": "S1"
+  },
+  "high": {
+    "full_name": "SULEMAN LAWANI",
+    "identity_number": "7504050112020002",
+    "gender": "M",
+    "date_of_birth": "2002-12-01",
+    "place_of_birth": "PAGUAT",
+    "bpkb_ownership": "2",
+    "occupation_type": "N",
+    "home_status": "YEARLY_CONTRACT",
+    "education": "SD"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@e2e/*": ["cypress/e2e/*"],
+      "@api/*": ["cypress/api/*"],
+      "@pom/*": ["cypress/pom/*"],
+      "@fixtures/*": ["cypress/fixtures/*"],
+      "@lib/*": ["cypress/lib/*"],
+      "@schema/*": ["cypress/schema/*"]
+    }
+  },
+  "include": ["cypress/**/*.js"]
+}

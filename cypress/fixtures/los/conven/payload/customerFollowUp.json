@@ -1,0 +1,270 @@
+{
+  "lead_group_id": "",
+  "lead_group_number": "",
+  "applications": [
+    {
+      "lead": {
+        "prospect": true,
+        "lead_id": "",
+        "lead_number": "1661336278430",
+        "lead_source": "NDF4W",
+        "is_prospect": true,
+        "product_category": "NDF Car",
+        "cross_branch": "in_branch",
+        "source_of_agent": "agent",
+        "survey_type": null,
+        "marketing_id": "401BA04037",
+        "marketing_spv_id": "jeffri401",
+        "activity_id": "BRVA"
+      },
+      "customer": {
+        "customer_type": "NEW",
+        "customer_profile": "PERSONAL",
+        "full_name": "",
+        "phone_number": "6281223716895",
+        "address": [
+          {
+            "province_code": "12",
+            "province_name": "Sumatera Utara",
+            "city_code": "12.71",
+            "city_name": "Medan",
+            "district_code": "12.71.05",
+            "district_name": "Medan Barat",
+            "subdistrict_code": "12.71.05.1002",
+            "subdistrict_name": "Silalas",
+            "zipcode": "20114",
+            "type": "domicile",
+            "address": "sei",
+            "longitude": "0.0",
+            "latitude": "0.0"
+          },
+          {
+            "province_code": "12",
+            "province_name": "Sumatera Utara",
+            "city_code": "12.71",
+            "city_name": "Medan",
+            "district_code": "12.71.05",
+            "district_name": "Medan Barat",
+            "subdistrict_code": "12.71.05.1002",
+            "subdistrict_name": "Silalas",
+            "zipcode": "20114",
+            "type": "legal",
+            "address": "Sei Dua",
+            "longitude": null,
+            "latitude": null
+          }
+        ],
+        "duration_of_work": "LESS_THAN_15"
+      },
+      "asset": {
+        "brand_code": "DAIHATSU",
+        "brand_name": "DAIHATSU",
+        "model_code": "DAIHATSU.AYLA",
+        "model_name": "DAIHATSU.AYLA",
+        "variant_code": "DAIHATSU.AYLA.D10AT",
+        "variant_name": "D 1.0 AT",
+        "type": "SEDAN",
+        "year_made": 2013,
+        "value_estimate": 57000000,
+        "license_number": "",
+        "tax_status": "tax_paid_off",
+        "bpkb_ownership": "1",
+        "bpkb_status": "on_hand",
+        "registration_photo": null,
+        "city_code": "35.78",
+        "is_sntk_active": null,
+        "stnk_status": "NON_ACTIVE"
+      },
+      "loan": {
+        "new": true,
+        "amount": 4.845e7,
+        "product_id": 1,
+        "package_id": 1,
+        "customer_type": "NEW",
+        "tenor": 18,
+        "installment_amount": 3317000.0,
+        "city_code": "12.71",
+        "effective_rate": 0.28,
+        "is_new": true,
+        "ltv": 0.9119451754385965,
+        "life_insurance_id": "bdad993a-cc59-411b-bcc0-57dbef9f436c",
+        "asset_insurance_id": "7746e6e8-e2fc-44fb-8903-28ecb66f8d05",
+        "asset_insurance_amount": 580000.0,
+        "life_insurance_amount": 468000.0
+      },
+      "calculation": {
+        "tenure_id": "195f5c55-f906-4ac4-b9d5-fb00ad97291a",
+        "tenor": 18,
+        "rounded_up_installment": 3317000.0,
+        "capitalized_ntf_amount": 5.1980875e7,
+        "provision_rate": 0.0175,
+        "admin_fee": 800000.0,
+        "provision_fee": 847875.0,
+        "asset_insurance_premium": 580000.0,
+        "asset_insurance_calculation_id": "7746e6e8-e2fc-44fb-8903-28ecb66f8d05",
+        "life_insurance_premium": 468000.0,
+        "life_insurance_calculation_id": "bdad993a-cc59-411b-bcc0-57dbef9f436c",
+        "ntf_amount": 4.845e7,
+        "effective_rate": 0.18,
+        "fiducia_fee": 0.0,
+        "other_fee": 250000.0,
+        "rsa_insurance_premium": 285000.0,
+        "rsa_insurance_calculation_id": "daf6d13e-cd8b-49f3-897c-d642b5dc0559",
+        "santunan_insurance_premium": 300000.0,
+        "santunan_insurance_calculation_id": "ab2d2311-19df-4b07-9d95-e29eca86954b",
+        "incentive_amount": 484500.0,
+        "installment": 3316680.366214835,
+        "total_repayment": 5.9706e7,
+        "adjusted_effective_rate": 0.1801289900053007,
+        "amortization": [
+          {
+            "sequence": 1,
+            "installment": 3317000.0,
+            "interest": 780271.88,
+            "principal": 2536728.12,
+            "admin_fee": 0.0,
+            "provision_fee": 0.0
+          },
+          {
+            "sequence": 2,
+            "installment": 3317000.0,
+            "interest": 742193.69,
+            "principal": 2574806.31,
+            "admin_fee": 0.0,
+            "provision_fee": 0.0
+          },
+          {
+            "sequence": 3,
+            "installment": 3317000.0,
+            "interest": 703543.91,
+            "principal": 2613456.09,
+            "admin_fee": 0.0,
+            "provision_fee": 0.0
+          },
+          {
+            "sequence": 4,
+            "installment": 3317000.0,
+            "interest": 664313.98,
+            "principal": 2652686.02,
+            "admin_fee": 0.0,
+            "provision_fee": 0.0
+          },
+          {
+            "sequence": 5,
+            "installment": 3317000.0,
+            "interest": 624495.18,
+            "principal": 2692504.82,
+            "admin_fee": 0.0,
+            "provision_fee": 0.0
+          },
+          {
+            "sequence": 6,
+            "installment": 3317000.0,
+            "interest": 584078.66,
+            "principal": 2732921.34,
+            "admin_fee": 0.0,
+            "provision_fee": 0.0
+          },
+          {
+            "sequence": 7,
+            "installment": 3317000.0,
+            "interest": 543055.47,
+            "principal": 2773944.53,
+            "admin_fee": 0.0,
+            "provision_fee": 0.0
+          },
+          {
+            "sequence": 8,
+            "installment": 3317000.0,
+            "interest": 501416.48,
+            "principal": 2815583.52,
+            "admin_fee": 0.0,
+            "provision_fee": 0.0
+          },
+          {
+            "sequence": 9,
+            "installment": 3317000.0,
+            "interest": 459152.46,
+            "principal": 2857847.54,
+            "admin_fee": 0.0,
+            "provision_fee": 0.0
+          },
+          {
+            "sequence": 10,
+            "installment": 3317000.0,
+            "interest": 416254.03,
+            "principal": 2900745.97,
+            "admin_fee": 0.0,
+            "provision_fee": 0.0
+          },
+          {
+            "sequence": 11,
+            "installment": 3317000.0,
+            "interest": 372711.66,
+            "principal": 2944288.34,
+            "admin_fee": 0.0,
+            "provision_fee": 0.0
+          },
+          {
+            "sequence": 12,
+            "installment": 3317000.0,
+            "interest": 328515.69,
+            "principal": 2988484.31,
+            "admin_fee": 0.0,
+            "provision_fee": 0.0
+          },
+          {
+            "sequence": 13,
+            "installment": 3317000.0,
+            "interest": 283656.3,
+            "principal": 3033343.7,
+            "admin_fee": 0.0,
+            "provision_fee": 0.0
+          },
+          {
+            "sequence": 14,
+            "installment": 3317000.0,
+            "interest": 238123.54,
+            "principal": 3078876.46,
+            "admin_fee": 0.0,
+            "provision_fee": 0.0
+          },
+          {
+            "sequence": 15,
+            "installment": 3317000.0,
+            "interest": 191907.29,
+            "principal": 3125092.71,
+            "admin_fee": 0.0,
+            "provision_fee": 0.0
+          },
+          {
+            "sequence": 16,
+            "installment": 3317000.0,
+            "interest": 144997.31,
+            "principal": 3172002.69,
+            "admin_fee": 0.0,
+            "provision_fee": 0.0
+          },
+          {
+            "sequence": 17,
+            "installment": 3317000.0,
+            "interest": 97383.17,
+            "principal": 3219616.83,
+            "admin_fee": 0.0,
+            "provision_fee": 0.0
+          },
+          {
+            "sequence": 18,
+            "installment": 3317000.0,
+            "interest": 49054.3,
+            "principal": 3267945.7,
+            "admin_fee": 0.0,
+            "provision_fee": 0.0
+          }
+        ],
+        "flat_rate": 0.099077,
+        "flat_rate_monthly": 0.008256
+      }
+    }
+  ]
+}

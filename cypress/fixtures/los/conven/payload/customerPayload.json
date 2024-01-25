@@ -1,0 +1,1138 @@
+{
+  "lead_group_id": "",
+  "lead_group_number": "",
+  "applications": [
+    {
+      "lead": {
+        "prospect": true,
+        "lead_id": "4a76efed-a4cb-4841-8880-81b9d4ba2460",
+        "lead_number": "1234569999",
+        "lead_source": "NDF4W",
+        "is_prospect": true,
+        "product_category": "NDF Car",
+        "cross_branch": "in_branch",
+        "source_of_agent": "agent",
+        "survey_type": null,
+        "marketing_id": "401BA04037",
+        "marketing_spv_id": "jeffri401"
+      },
+      "customer": {
+        "enforce_skip_kyc_result": true,
+        "customer_id": "ca9b0bd3-1bd7-4929-9b31-a46ea56d37a9",
+        "customer_type": "NEW",
+        "customer_profile": "PERSONAL",
+        "full_name": "MUHAMMAD NOVA TAUFIK",
+        "phone_number": "6281337118878",
+        "identity_number": "5103061602810001",
+        "npwp_number": "486510449951000",
+        "marital_status": "S",
+        "gender": "M",
+        "occupation_type": "M",
+        "date_of_birth": "1981-02-16",
+        "place_of_birth": "BANYUWANGI",
+        "nationality": "WNI",
+        "monthly_income": 200000000,
+        "home_status": "SELF_OWNED",
+        "selfie_photo": "158b9a95-aefa-44a0-8beb-8d976c7e81fd",
+        "identity_photo": "165b4a2e-141b-4572-9a2a-f8d142750c15",
+        "spouse_identity_photo": "0db6b635-c7b8-4b6f-8730-723369916c9f",
+        "spouse_name": "FENNY SEPTIA RAHMI",
+        "spouse_identity_number": "3674036309930012",
+        "spouse_dob": "1993-09-23",
+        "spouse_pob": "BANDUNG",
+        "e_kyc_verified": true,
+        "m_kyc_result": null,
+        "m_kyc_score": null,
+        "m_kyc_category": null,
+        "education": "S1",
+        "e_kyc_reason": "4WPSM2A",
+        "duration_of_work": "LESS_THAN_15",
+        "dependent_number": 0,
+        "address": [
+          {
+            "province_code": "12",
+            "province_name": "Sumatera Utara",
+            "city_code": "12.71",
+            "city_name": "Medan",
+            "district_code": "12.71.05",
+            "district_name": "Medan Barat",
+            "subdistrict_code": "12.71.05.1002",
+            "subdistrict_name": "Silalas",
+            "zipcode": "20114",
+            "type": "domicile",
+            "address": "sei",
+            "longitude": "0.0",
+            "latitude": "0.0"
+          },
+          {
+            "province_code": "12",
+            "province_name": "Sumatera Utara",
+            "city_code": "12.71",
+            "city_name": "Medan",
+            "district_code": "12.71.05",
+            "district_name": "Medan Barat",
+            "subdistrict_code": "12.71.05.1002",
+            "subdistrict_name": "Silalas",
+            "zipcode": "20114",
+            "type": "legal",
+            "address": "Sei Dua",
+            "longitude": null,
+            "latitude": null
+          }
+        ]
+      },
+      "asset": {
+        "brand_code": "TOYOTA",
+        "brand_name": "TOYOTA",
+        "model_code": "TOYOTA.AGYA",
+        "model_name": "TOYOTA.AGYA",
+        "variant_code": "TOYOTA.AGYA.G10AT",
+        "variant_name": "G 1.0 AT",
+        "type": "MNBUS",
+
+        "year_made": 2013,
+        "value_estimate": 57000000,
+        "license_number": "WV796XT",
+        "tax_status": "tax_paid_off",
+        "bpkb_ownership": "1",
+        "bpkb_status": "on_hand",
+        "registration_photo": null,
+        "city_code": "35.78",
+        "is_sntk_active": null,
+        "stnk_status": "NON_ACTIVE"
+      },
+      "loan": {
+        "new": true,
+        "amount": 45000000,
+        "product_id": 1,
+        "package_id": 6,
+        "customer_type": "NEW",
+        "tenor": 18,
+        "installment_amount": 3500000,
+        "city_code": "12.71",
+        "effective_rate": 0.23,
+        "is_new": true,
+        "ltv": 0.8,
+        "life_insurance_id": "bdad993a-cc59-411b-bcc0-57dbef9f436c",
+        "asset_insurance_id": "7746e6e8-e2fc-44fb-8903-28ecb66f8d05",
+        "asset_insurance_amount": 6079000,
+        "life_insurance_amount": 1856500
+      },
+      "calculation": {
+        "tenure_id": "195f5c55-f906-4ac4-b9d5-fb00ad97291a",
+        "tenor": 48,
+        "rounded_up_installment": 3500000,
+        "capitalized_ntf_amount": 109195750,
+        "provision_rate": 0.0325,
+        "admin_fee": 1450000,
+        "provision_fee": 3110250,
+        "asset_insurance_premium": 6079000,
+        "asset_insurance_calculation_id": "7746e6e8-e2fc-44fb-8903-28ecb66f8d05",
+        "life_insurance_premium": 1856500,
+        "life_insurance_calculation_id": "bdad993a-cc59-411b-bcc0-57dbef9f436c",
+        "ntf_amount": 95700000,
+        "effective_rate": 0.23,
+        "fiducia_fee": 0,
+        "insurance_coverage_type": "MIX",
+        "other_fee": 400000,
+        "rsa_insurance_premium": 0,
+        "rsa_insurance_calculation_id": "",
+        "santunan_insurance_premium": 600000,
+        "santunan_insurance_calculation_id": "ab2d2311-19df-4b07-9d95-e29eca86954b",
+        "incentive_amount": 3828000,
+        "installment": 3499884.47,
+        "total_repayment": 168000000,
+        "adjusted_effective_rate": 0.23001930993490433,
+        "amortization": [
+          {
+            "sequence": 1,
+            "installment": 3500000,
+            "interest": 2093094.26,
+            "principal": 1406905.74,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 2,
+            "installment": 3500000,
+            "interest": 2066126.3,
+            "principal": 1433873.7,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 3,
+            "installment": 3500000,
+            "interest": 2038641.41,
+            "principal": 1461358.59,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 4,
+            "installment": 3500000,
+            "interest": 2010629.69,
+            "principal": 1489370.31,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 5,
+            "installment": 3500000,
+            "interest": 1982081.03,
+            "principal": 1517918.97,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 6,
+            "installment": 3500000,
+            "interest": 1952985.14,
+            "principal": 1547014.86,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 7,
+            "installment": 3500000,
+            "interest": 1923331.53,
+            "principal": 1576668.47,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 8,
+            "installment": 3500000,
+            "interest": 1893109.51,
+            "principal": 1606890.49,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 9,
+            "installment": 3500000,
+            "interest": 1862308.19,
+            "principal": 1637691.81,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 10,
+            "installment": 3500000,
+            "interest": 1830916.46,
+            "principal": 1669083.54,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 11,
+            "installment": 3500000,
+            "interest": 1798923.01,
+            "principal": 1701076.99,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 12,
+            "installment": 3500000,
+            "interest": 1766316.3,
+            "principal": 1733683.7,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 13,
+            "installment": 3500000,
+            "interest": 1733084.57,
+            "principal": 1766915.43,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 14,
+            "installment": 3500000,
+            "interest": 1699215.85,
+            "principal": 1800784.15,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 15,
+            "installment": 3500000,
+            "interest": 1664697.92,
+            "principal": 1835302.08,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 16,
+            "installment": 3500000,
+            "interest": 1629518.34,
+            "principal": 1870481.66,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 17,
+            "installment": 3500000,
+            "interest": 1593664.44,
+            "principal": 1906335.56,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 18,
+            "installment": 3500000,
+            "interest": 1557123.27,
+            "principal": 1942876.73,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 19,
+            "installment": 3500000,
+            "interest": 1519881.67,
+            "principal": 1980118.33,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 20,
+            "installment": 3500000,
+            "interest": 1481926.22,
+            "principal": 2018073.78,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 21,
+            "installment": 3500000,
+            "interest": 1443243.22,
+            "principal": 2056756.78,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 22,
+            "installment": 3500000,
+            "interest": 1403818.74,
+            "principal": 2096181.26,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 23,
+            "installment": 3500000,
+            "interest": 1363638.56,
+            "principal": 2136361.44,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 24,
+            "installment": 3500000,
+            "interest": 1322688.2,
+            "principal": 2177311.8,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 25,
+            "installment": 3500000,
+            "interest": 1280952.88,
+            "principal": 2219047.12,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 26,
+            "installment": 3500000,
+            "interest": 1238417.58,
+            "principal": 2261582.42,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 27,
+            "installment": 3500000,
+            "interest": 1195066.94,
+            "principal": 2304933.06,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 28,
+            "installment": 3500000,
+            "interest": 1150885.35,
+            "principal": 2349114.65,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 29,
+            "installment": 3500000,
+            "interest": 1105856.87,
+            "principal": 2394143.13,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 30,
+            "installment": 3500000,
+            "interest": 1059965.27,
+            "principal": 2440034.73,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 31,
+            "installment": 3500000,
+            "interest": 1013194.02,
+            "principal": 2486805.98,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 32,
+            "installment": 3500000,
+            "interest": 965526.23,
+            "principal": 2534473.77,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 33,
+            "installment": 3500000,
+            "interest": 916944.74,
+            "principal": 2583055.26,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 34,
+            "installment": 3500000,
+            "interest": 867432.02,
+            "principal": 2632567.98,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 35,
+            "installment": 3500000,
+            "interest": 816970.24,
+            "principal": 2683029.76,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 36,
+            "installment": 3500000,
+            "interest": 765541.18,
+            "principal": 2734458.82,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 37,
+            "installment": 3500000,
+            "interest": 713126.32,
+            "principal": 2786873.68,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 38,
+            "installment": 3500000,
+            "interest": 659706.76,
+            "principal": 2840293.24,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 39,
+            "installment": 3500000,
+            "interest": 605263.23,
+            "principal": 2894736.77,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 40,
+            "installment": 3500000,
+            "interest": 549776.12,
+            "principal": 2950223.88,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 41,
+            "installment": 3500000,
+            "interest": 493225.41,
+            "principal": 3006774.59,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 42,
+            "installment": 3500000,
+            "interest": 435590.73,
+            "principal": 3064409.27,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 43,
+            "installment": 3500000,
+            "interest": 376851.29,
+            "principal": 3123148.71,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 44,
+            "installment": 3500000,
+            "interest": 316985.91,
+            "principal": 3183014.09,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 45,
+            "installment": 3500000,
+            "interest": 255973.02,
+            "principal": 3244026.98,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 46,
+            "installment": 3500000,
+            "interest": 193790.62,
+            "principal": 3306209.38,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 47,
+            "installment": 3500000,
+            "interest": 130416.28,
+            "principal": 3369583.72,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 48,
+            "installment": 3500000,
+            "interest": 65827.16,
+            "principal": 3434172.84,
+            "admin_fee": 0,
+            "provision_fee": 0
+          }
+        ],
+        "flat_rate": 0.13463,
+        "flat_rate_monthly": 0.011219
+      }
+    },
+    {
+      "lead": {
+        "prospect": true,
+        "lead_id": "4a76efed-a4cb-4841-8880-81b9d4ba2460",
+        "lead_number": "1234569999",
+        "lead_source": "NDF4W",
+        "is_prospect": true,
+        "product_category": "NDF Car",
+        "cross_branch": "in_branch",
+        "source_of_agent": "agent",
+        "survey_type": null,
+        "marketing_id": "401BA04037",
+        "marketing_spv_id": "jeffri401"
+      },
+      "customer": {
+        "enforce_skip_kyc_result": true,
+        "customer_id": "ca9b0bd3-1bd7-4929-9b31-a46ea56d37a9",
+        "customer_type": "NEW",
+        "customer_profile": "PERSONAL",
+        "full_name": "MUHAMMAD NOVA TAUFIK",
+        "phone_number": "6281337118878",
+        "identity_number": "5103061602810001",
+        "npwp_number": "486510449951000",
+        "marital_status": "S",
+        "gender": "M",
+        "occupation_type": "M",
+        "date_of_birth": "1981-02-16",
+        "place_of_birth": "BANYUWANGI",
+        "nationality": "WNI",
+        "monthly_income": 200000000,
+        "home_status": "SELF_OWNED",
+        "selfie_photo": "158b9a95-aefa-44a0-8beb-8d976c7e81fd",
+        "identity_photo": "165b4a2e-141b-4572-9a2a-f8d142750c15",
+        "spouse_identity_photo": "0db6b635-c7b8-4b6f-8730-723369916c9f",
+        "spouse_name": "FENNY SEPTIA RAHMI",
+        "spouse_identity_number": "3674036309930012",
+        "spouse_dob": "1993-09-23",
+        "spouse_pob": "BANDUNG",
+        "e_kyc_verified": true,
+        "m_kyc_result": null,
+        "m_kyc_score": null,
+        "m_kyc_category": null,
+        "education": "S1",
+        "e_kyc_reason": "4WPSM2A",
+        "duration_of_work": "LESS_THAN_15",
+        "dependent_number": 0,
+        "address": [
+          {
+            "province_code": "12",
+            "province_name": "Sumatera Utara",
+            "city_code": "12.71",
+            "city_name": "Medan",
+            "district_code": "12.71.05",
+            "district_name": "Medan Barat",
+            "subdistrict_code": "12.71.05.1002",
+            "subdistrict_name": "Silalas",
+            "zipcode": "20114",
+            "type": "domicile",
+            "address": "sei",
+            "longitude": "0.0",
+            "latitude": "0.0"
+          },
+          {
+            "province_code": "12",
+            "province_name": "Sumatera Utara",
+            "city_code": "12.71",
+            "city_name": "Medan",
+            "district_code": "12.71.05",
+            "district_name": "Medan Barat",
+            "subdistrict_code": "12.71.05.1002",
+            "subdistrict_name": "Silalas",
+            "zipcode": "20114",
+            "type": "legal",
+            "address": "Sei Dua",
+            "longitude": null,
+            "latitude": null
+          }
+        ]
+      },
+      "asset": {
+        "brand_code": "TOYOTA",
+        "brand_name": "TOYOTA",
+        "model_code": "TOYOTA.AGYA",
+        "model_name": "TOYOTA.AGYA",
+        "variant_code": "TOYOTA.AGYA.G10AT",
+        "variant_name": "G 1.0 AT",
+        "type": "MNBUS",
+
+        "year_made": 2013,
+        "value_estimate": 57000000,
+        "license_number": "WV796XT",
+        "tax_status": "tax_paid_off",
+        "bpkb_ownership": "1",
+        "bpkb_status": "on_hand",
+        "registration_photo": null,
+        "city_code": "35.78",
+        "is_sntk_active": null,
+        "stnk_status": "NON_ACTIVE"
+      },
+      "loan": {
+        "new": true,
+        "amount": 45000000,
+
+        "product_id": 1,
+        "package_id": 6,
+        "customer_type": "NEW",
+        "tenor": 18,
+        "installment_amount": 3500000,
+        "city_code": "12.71",
+        "effective_rate": 0.23,
+        "is_new": true,
+        "ltv": 0.8,
+        "life_insurance_id": "bdad993a-cc59-411b-bcc0-57dbef9f436c",
+        "asset_insurance_id": "7746e6e8-e2fc-44fb-8903-28ecb66f8d05",
+        "asset_insurance_amount": 6079000,
+        "life_insurance_amount": 1856500
+      },
+      "calculation": {
+        "tenure_id": "195f5c55-f906-4ac4-b9d5-fb00ad97291a",
+        "tenor": 48,
+        "rounded_up_installment": 3500000,
+        "capitalized_ntf_amount": 109195750,
+        "provision_rate": 0.0325,
+        "admin_fee": 1450000,
+        "provision_fee": 3110250,
+        "asset_insurance_premium": 6079000,
+        "asset_insurance_calculation_id": "7746e6e8-e2fc-44fb-8903-28ecb66f8d05",
+        "life_insurance_premium": 1856500,
+        "life_insurance_calculation_id": "bdad993a-cc59-411b-bcc0-57dbef9f436c",
+        "ntf_amount": 95700000,
+        "effective_rate": 0.23,
+        "fiducia_fee": 0,
+        "other_fee": 400000,
+        "rsa_insurance_premium": 0,
+        "rsa_insurance_calculation_id": "",
+        "santunan_insurance_premium": 600000,
+        "santunan_insurance_calculation_id": "ab2d2311-19df-4b07-9d95-e29eca86954b",
+        "incentive_amount": 3828000,
+        "installment": 3499884.47,
+        "total_repayment": 168000000,
+        "adjusted_effective_rate": 0.23001930993490433,
+        "amortization": [
+          {
+            "sequence": 1,
+            "installment": 3500000,
+            "interest": 2093094.26,
+            "principal": 1406905.74,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 2,
+            "installment": 3500000,
+            "interest": 2066126.3,
+            "principal": 1433873.7,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 3,
+            "installment": 3500000,
+            "interest": 2038641.41,
+            "principal": 1461358.59,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 4,
+            "installment": 3500000,
+            "interest": 2010629.69,
+            "principal": 1489370.31,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 5,
+            "installment": 3500000,
+            "interest": 1982081.03,
+            "principal": 1517918.97,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 6,
+            "installment": 3500000,
+            "interest": 1952985.14,
+            "principal": 1547014.86,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 7,
+            "installment": 3500000,
+            "interest": 1923331.53,
+            "principal": 1576668.47,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 8,
+            "installment": 3500000,
+            "interest": 1893109.51,
+            "principal": 1606890.49,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 9,
+            "installment": 3500000,
+            "interest": 1862308.19,
+            "principal": 1637691.81,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 10,
+            "installment": 3500000,
+            "interest": 1830916.46,
+            "principal": 1669083.54,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 11,
+            "installment": 3500000,
+            "interest": 1798923.01,
+            "principal": 1701076.99,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 12,
+            "installment": 3500000,
+            "interest": 1766316.3,
+            "principal": 1733683.7,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 13,
+            "installment": 3500000,
+            "interest": 1733084.57,
+            "principal": 1766915.43,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 14,
+            "installment": 3500000,
+            "interest": 1699215.85,
+            "principal": 1800784.15,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 15,
+            "installment": 3500000,
+            "interest": 1664697.92,
+            "principal": 1835302.08,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 16,
+            "installment": 3500000,
+            "interest": 1629518.34,
+            "principal": 1870481.66,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 17,
+            "installment": 3500000,
+            "interest": 1593664.44,
+            "principal": 1906335.56,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 18,
+            "installment": 3500000,
+            "interest": 1557123.27,
+            "principal": 1942876.73,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 19,
+            "installment": 3500000,
+            "interest": 1519881.67,
+            "principal": 1980118.33,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 20,
+            "installment": 3500000,
+            "interest": 1481926.22,
+            "principal": 2018073.78,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 21,
+            "installment": 3500000,
+            "interest": 1443243.22,
+            "principal": 2056756.78,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 22,
+            "installment": 3500000,
+            "interest": 1403818.74,
+            "principal": 2096181.26,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 23,
+            "installment": 3500000,
+            "interest": 1363638.56,
+            "principal": 2136361.44,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 24,
+            "installment": 3500000,
+            "interest": 1322688.2,
+            "principal": 2177311.8,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 25,
+            "installment": 3500000,
+            "interest": 1280952.88,
+            "principal": 2219047.12,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 26,
+            "installment": 3500000,
+            "interest": 1238417.58,
+            "principal": 2261582.42,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 27,
+            "installment": 3500000,
+            "interest": 1195066.94,
+            "principal": 2304933.06,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 28,
+            "installment": 3500000,
+            "interest": 1150885.35,
+            "principal": 2349114.65,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 29,
+            "installment": 3500000,
+            "interest": 1105856.87,
+            "principal": 2394143.13,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 30,
+            "installment": 3500000,
+            "interest": 1059965.27,
+            "principal": 2440034.73,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 31,
+            "installment": 3500000,
+            "interest": 1013194.02,
+            "principal": 2486805.98,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 32,
+            "installment": 3500000,
+            "interest": 965526.23,
+            "principal": 2534473.77,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 33,
+            "installment": 3500000,
+            "interest": 916944.74,
+            "principal": 2583055.26,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 34,
+            "installment": 3500000,
+            "interest": 867432.02,
+            "principal": 2632567.98,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 35,
+            "installment": 3500000,
+            "interest": 816970.24,
+            "principal": 2683029.76,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 36,
+            "installment": 3500000,
+            "interest": 765541.18,
+            "principal": 2734458.82,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 37,
+            "installment": 3500000,
+            "interest": 713126.32,
+            "principal": 2786873.68,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 38,
+            "installment": 3500000,
+            "interest": 659706.76,
+            "principal": 2840293.24,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 39,
+            "installment": 3500000,
+            "interest": 605263.23,
+            "principal": 2894736.77,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 40,
+            "installment": 3500000,
+            "interest": 549776.12,
+            "principal": 2950223.88,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 41,
+            "installment": 3500000,
+            "interest": 493225.41,
+            "principal": 3006774.59,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 42,
+            "installment": 3500000,
+            "interest": 435590.73,
+            "principal": 3064409.27,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 43,
+            "installment": 3500000,
+            "interest": 376851.29,
+            "principal": 3123148.71,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 44,
+            "installment": 3500000,
+            "interest": 316985.91,
+            "principal": 3183014.09,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 45,
+            "installment": 3500000,
+            "interest": 255973.02,
+            "principal": 3244026.98,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 46,
+            "installment": 3500000,
+            "interest": 193790.62,
+            "principal": 3306209.38,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 47,
+            "installment": 3500000,
+            "interest": 130416.28,
+            "principal": 3369583.72,
+            "admin_fee": 0,
+            "provision_fee": 0
+          },
+          {
+            "sequence": 48,
+            "installment": 3500000,
+            "interest": 65827.16,
+            "principal": 3434172.84,
+            "admin_fee": 0,
+            "provision_fee": 0
+          }
+        ],
+        "flat_rate": 0.13463,
+        "flat_rate_monthly": 0.011219
+      },
+      "additional": {
+        "insurance": {
+          "insurance_end_date": "2023-12-12",
+          "coverage_type_by_customer": "MIX",
+          "policy_number_by_customer": "12345678",
+          "amount_coverage_by_customer": 10000000,
+          "insurance_company_name_by_customer": "string"
+        },
+        "calculation_request": {
+          "steps": null,
+          "insurance": {
+            "birth_date": "1970-05-15",
+            "coverage_type": "ARK",
+            "detail_asset_ins": [
+              {
+                "end_date": "2023-12-12",
+                "year_num": 1,
+                "start_date": "2020-12-12",
+                "coverage_type": "MIX"
+              }
+            ],
+            "coverage_type_detail": [
+              {
+                "end_date": "2023-12-12",
+                "year_num": 1,
+                "start_date": "2020-12-12",
+                "coverage_type": "MIX"
+              }
+            ],
+            "is_insurance_transfer": false,
+            "end_date_old_insurance_policy": "2023-12-12",
+            "coverage_type_asset_ins_old_agreement": "MIX"
+          },
+          "additional": {
+            "is_nst": false,
+            "maturity_date": "2023-03-26",
+            "effective_date": "2023-03-24",
+            "contract_status": "LIV",
+            "is_fund_deduction": true,
+            "voucher_prepayment": 1000,
+            "tenor_old_agreement": 10,
+            "is_discount_prepayment": false,
+            "amount_prepayment_penalty": 500000,
+            "outstanding_principal_undue": 1000000,
+            "amount_to_be_paid_prepayment": 10000000
+          },
+          "collateral": {
+            "otr": 52000000,
+            "is_new": false,
+            "asset_code": "TOYOTA.ALLNEWAVANZAVELOZ.VVTI15AT",
+            "category_id": "SEDAN",
+            "asset_type_id": "MOBIL",
+            "manufacturing_year": 2011
+          },
+          "calculation": {
+            "tenor": [4],
+            "max_ltv": 0.85,
+            "zip_code": "",
+            "branch_id": 401,
+            "city_code": "",
+            "package_id": 16,
+            "product_id": 1,
+            "loan_amount": 44200000,
+            "customer_type": "RO_ACTIVE",
+            "sub_district_code": "test"
+          },
+          "amortization": true,
+          "cummLoanLength": null
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+name: Scheduled test
+
+on:
+  schedule:
+    - cron: '00 08 * * MON'
+
+jobs:
+  E2ETestSpvcockpit:
+    name: Scheduled E2E Test spvcockpit
+    uses: bfi-finance/cypress-test-automation/.github/workflows/reuseable.yml@master
+    with:
+      test_type: e2e
+      test_environment: SIT
+      githost_environment: ubuntu-22-4core
+      squad: spvcockpit
+    secrets: inherit
+
+  E2ETestAgenttools:
+    name: Scheduled E2E Test agenttools
+    uses: bfi-finance/cypress-test-automation/.github/workflows/reuseable.yml@master
+    with:
+      test_type: e2e
+      test_environment: SIT
+      githost_environment: ubuntu-22-4core
+      squad: agenttools
+    secrets: inherit
+
+  E2ETestDms:
+    name: Scheduled E2E Test dms
+    uses: bfi-finance/cypress-test-automation/.github/workflows/reuseable.yml@master
+    with:
+      test_type: e2e
+      test_environment: SIT
+      githost_environment: ubuntu-22-4core
+      squad: dms
+    secrets: inherit
+
+  E2ETestNdf4w:
+    name: Scheduled E2E Test ndf4w
+    uses: bfi-finance/cypress-test-automation/.github/workflows/reuseable.yml@master
+    with:
+      test_type: e2e
+      test_environment: SIT
+      githost_environment: ubuntu-22-4core
+      squad: ndf4w
+    secrets: inherit
+
+  E2ETestOperation:
+    name: Scheduled E2E Test operation
+    uses: bfi-finance/cypress-test-automation/.github/workflows/reuseable.yml@master
+    with:
+      test_type: e2e
+      test_environment: SIT
+      githost_environment: legacy
+      squad: operation
+    secrets: inherit
+
+  IntegrationTestAre:
+    name: Scheduled Integration Test aretracker
+    uses: bfi-finance/cypress-test-automation/.github/workflows/reuseable.yml@master
+    with:
+      test_type: integration
+      test_environment: SIT
+      githost_environment: ubuntu-22-4core
+      squad: are
+    secrets: inherit
+
+  IntegrationTestOperation:
+    name: Scheduled Integration Test operation
+    uses: bfi-finance/cypress-test-automation/.github/workflows/reuseable.yml@master
+    with:
+      test_type: integration
+      test_environment: SIT
+      githost_environment: legacy
+      squad: operation
+    secrets: inherit
+
+  IntegrationTestSharia:
+      name: Scheduled Integration Test operation
+      uses: bfi-finance/cypress-test-automation/.github/workflows/reuseable.yml@master
+      with:
+        test_type: integration
+        test_environment: SIT
+        githost_environment: ubuntu-22-4core
+        squad: sharia
+      secrets: inherit
+
+  IntegrationTestRepeatorder:
+    name: Scheduled Integration Test repeatorder
+    uses: bfi-finance/cypress-test-automation/.github/workflows/reuseable.yml@master
+    with:
+      test_type: integration
+      test_environment: SIT
+      githost_environment: ubuntu-22-4core
+      squad: repeatorder
+    secrets: inherit
+
+  E2ETestLms:
+    name: Scheduled E2E Test lms
+    uses: bfi-finance/cypress-test-automation/.github/workflows/reuseable.yml@master
+    with:
+      test_type: e2e
+      test_environment: SIT
+      githost_environment: ubuntu-22-4core
+      squad: lms
+    secrets: inherit
+  
+  E2ETestIprocurement:
+    name: Scheduled E2E Test iprocurement
+    uses: bfi-finance/cypress-test-automation/.github/workflows/reuseable.yml@master
+    with:
+      test_type: e2e
+      test_environment: SIT
+      githost_environment: legacy
+      squad: iprocurement
+    secrets: inherit

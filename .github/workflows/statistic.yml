@@ -1,0 +1,33 @@
+name: Zephyr TC Statistic
+
+on:
+  workflow_dispatch:
+    branches: [master]
+    inputs:
+      token:
+        description: JWT Token from Jira Account
+        type: string
+        required: true
+
+jobs:
+  RunTest:
+    name: Collect Zephyr TC Statistic
+    environment: 'SIT'
+    runs-on: 'ubuntu-latest'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up NodeJS
+        uses: actions/setup-node@v2
+        with:
+          node-version: '20'
+      - name: Set runner timezone to GMT+7
+        uses: szenius/set-timezone@v1.2
+        with:
+          timezoneLinux: 'Asia/Jakarta'
+      - name: Set up cypress.env.json from secret
+        run: echo '${{ secrets.CYPRESS_ENV }}' > cypress.env.json
+      - name: Cypress run to collect TC Statistic
+        uses: cypress-io/github-action@v6
+        with:
+          command: npx cypress run --spec cypress/integration/sample/tm4jAPI.spec.js --env tm4jToken=${{ inputs.token }}
