@@ -2,7 +2,7 @@
 node_modules/
 screenshots/
 videos/
-cypress.env.json
+# cypress.env.json
 cypress/fixtures/zephyr/
 cypress/fixtures/sample/
 cypress/fixtures/ndf4w/data-real
